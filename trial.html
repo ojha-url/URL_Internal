@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.css' rel='stylesheet' />
+	  	<style>  	
+	  		body {
+	  			margin:0; 
+	  			padding:0;
+	  		}
+	  		
+			#mapContain {
+			position: absolute;
+			top: 0; bottom: 0; left: 0; right:0;
+			width: 100%; height: 100%;
+			padding: 0px;
+		} 
+		</style>
+		<script language="Javascript">
+			var Width=900
+			var Height=1080
+			var Left=(screen.width/2)-(Width/2)
+			var Top=(screen.heigt/2)-(Height/2)
+			var Autoclose=true
+		
+			function openFrameless(url) {
+				Frameless = window.open(url,"noframewin","fullscreen") 
+				FrameLess.document.body.style.overflow="auto" // auto scrollbars
+				FrameLess.resizeTo(Width,Height) // resize
+				FrameLess.moveTo(Left,Top) // position
+				FrameLess.focus()
+
+				if (Autoclose){
+					window.onunload = function(){
+						FrameLess.close()
+				}
+			}
+		}
+		</script>
+  </head>
+  <body onload = "openFrameless('trial2.html')">
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8">
+  </script>  
+	<div id="mapContain">
+    </div>
+  <script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoibWF5YW5rb2poYSIsImEiOiJfeGl3Y01jIn0.Z3VjUlCe-W63PLsPzY_7Cw';
+		var map = new mapboxgl.Map({
+    		container: 'mapContain',
+	    	style: 'mapbox://styles/mapbox/streets-v9',
+	    	center: [106.83, -6.2],
+	    	zoom: 10
+			});
+	</script>
+  </body>
+</html>
