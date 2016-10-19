@@ -20,12 +20,7 @@
             },
             "type": "Feature"
         }
-    ],
-    "type": "FeatureCollection"
-}
-
-{
-    "features": [
+        
         {
             "geometry": {
                 "coordinates": [
@@ -46,13 +41,8 @@
             },
             "type": "Feature"
         }
-    ],
-    "type": "FeatureCollection"
-}
 
 {
-    "features": [
-        {
             "geometry": {
                 "coordinates": [
                     106.844,
