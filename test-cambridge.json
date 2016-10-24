@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties":{"pkey":22,"created_at":"2015-12-08T14:31:14","source":"twitter","status":"confirmed", },
+      "properties":{"pkey":22,"created_at":"2015-12-08T14:31:14","source":"twitter","status":"confirmed"},
       "geometry": {
         "type": "Point",
         "coordinates": [
