@@ -10,18 +10,6 @@
           -71.09587669372559,
           42.36279318110932
         ]
-      }
+      },"properties":{"pkey":22,"created_at":"2015-12-08T14:31:14","source":"twitter","status":"confirmed","url":"http://twitter.com/fittfitria/statuses/674129090870272002","image_url":null,"title":null,"text":"@petajkt #banjir test"}},
     },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.10600471496582,
-          42.360890561289295
-        ]
-      }
-    }
-  ]
-}
+   
