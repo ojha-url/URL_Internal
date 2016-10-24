@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties":{},
+      "properties": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -14,7 +14,7 @@
     },
     {
       "type": "Feature",
-      "properties":{},
+      "properties": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -25,4 +25,3 @@
     }
   ]
 }
-  }
